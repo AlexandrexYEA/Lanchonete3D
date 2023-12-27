@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+
+h1 {
+    color: white;
+    font-size: large;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+main {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+button{
+    background-color: #79cb15;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    padding: 10px;
+    cursor: pointer;
+    width: 130px;
+    height: 50px;
+    text-align: center;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+
+ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 200px 200px 200px; 
+    gap: 20px;
+    text-align: center;
+}
+
+li {
+    border: 2px solid #8133FF;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.nameProduct {
+    color: azure;
+
+}
+
+.priceProduct {
+    color: #79cb15;
+}
+
+img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.allPrices {
+    
+    color: azure;
+}
+
